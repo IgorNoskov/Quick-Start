@@ -1,0 +1,20 @@
+/*
+Theme Name: Quick Start
+Theme URI: https://github.com/IgorNoskov/quick-start
+Author: Igor Noskov
+Author URI: https://github.com/IgorNoskov
+Description: Starter Wordpress Theme. Translation ready.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: quick-start
+Tags: clean, grid, framework, translation-ready
+*/
+
+/*
+This file not enqueued and used to identify the theme in WordPress.
+The compiled CSS output can be found in assets/public/css/public-theme-styles.css
+The Stylus sources for it can be found in src/stylus/
+The compiled JS output can be found in assets/public/js/public-theme-scripts.min.js
+The JS sources for it can be found in src/js/
+*/

@@ -1,0 +1,21 @@
+.secondary-navigation
+
+  &__nav-list
+    margin: 0
+    padding: 0
+    list-style: none
+
+  .menu-item
+
+    a
+      text-decoration: none
+
+@media screen and (min-width: 992px)
+
+  .secondary-navigation
+
+    &__nav-list
+      display: flex
+
+    .menu-item:not(:last-child)
+      padding-right: 10px

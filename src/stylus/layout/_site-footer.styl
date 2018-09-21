@@ -1,0 +1,19 @@
+.site-footer
+  background-color: $primary-color
+  border-top: 1px solid darken($primary-color, 20%)
+  padding: $space 0
+  text-align: center
+
+  &__inner
+    max-width: $container-max-width
+    margin-right: auto
+    margin-left: auto
+    padding: 0 15px
+
+@media screen and (min-width: 992px)
+  .site-footer
+
+    &__inner
+      align-items: center
+      display: flex
+      justify-content: space-between

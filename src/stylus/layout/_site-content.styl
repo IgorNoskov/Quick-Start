@@ -1,0 +1,14 @@
+@media screen and (min-width: 992px)
+  .site-content
+    max-width: $container-max-width
+    margin-right: auto
+    margin-left: auto
+    display: grid
+    grid-template-columns: repeat(12, 1fr)
+    grid-gap: 0 10px
+
+    &_main_right
+      grid-template-areas: "s s s s m m m m m m m m"
+
+    &_main_left
+      grid-template-areas: "m m m m m m m m s s s s"

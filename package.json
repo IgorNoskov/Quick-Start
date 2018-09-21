@@ -1,0 +1,41 @@
+{
+  "name": "quick-start",
+  "version": "1.0.0",
+  "description": "Start Wordpress Theme for creating something great!",
+  "scripts": {
+    "gulp": "node_modules/gulp/bin/gulp.js"
+  },
+  "author": "Igor Noskov",
+  "license": "ISC",
+  "homepage": "https://github.com/",
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "del": "*",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "*",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "*",
+    "gulp-concat": "*",
+    "gulp-header": "*",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "*",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "*",
+    "normalize-stylus": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "dependencies": {},
+  "main": "gulpfile.babel.js"
+}

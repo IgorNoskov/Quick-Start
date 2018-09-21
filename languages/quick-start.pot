@@ -1,0 +1,450 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Start\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-30 16:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:26
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:31
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:43
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:46
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:65
+msgid "Reply"
+msgstr ""
+
+#: comments.php:70
+msgid "Previous"
+msgstr ""
+
+#: comments.php:71
+msgid "Next"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: index.php:31
+msgid "Posts"
+msgstr ""
+
+#: search.php:28
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:30
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:54
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:25
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:29
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:32
+msgctxt "search form submit button"
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:26
+msgid "Site sidebar"
+msgstr ""
+
+#: inc/admin.php:30
+msgid "The field is required."
+msgstr ""
+
+#: inc/customizer.php:37
+msgid "Theme settings"
+msgstr ""
+
+#: inc/customizer.php:38
+msgid "Main theme settings."
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "Site layout type"
+msgstr ""
+
+#: inc/customizer.php:61
+msgid "Choose layout type for all site."
+msgstr ""
+
+#: inc/customizer.php:63
+msgid "Sidebar on right"
+msgstr ""
+
+#: inc/customizer.php:64
+msgid "Sidebar on left"
+msgstr ""
+
+#: inc/customizer.php:84
+msgid "Pagination type"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "Choose pagination type for all site."
+msgstr ""
+
+#: inc/customizer.php:87
+msgid "Default pagination."
+msgstr ""
+
+#: inc/customizer.php:88
+msgid "Ajax loading pagination."
+msgstr ""
+
+#: inc/customizer.php:108
+msgid "Site info"
+msgstr ""
+
+#: inc/customizer.php:109
+msgid "Information is displayed in the footer."
+msgstr ""
+
+#: inc/customizer.php:116
+msgid "Example Section"
+msgstr ""
+
+#: inc/customizer.php:117
+msgid "Description for section"
+msgstr ""
+
+#: inc/customizer.php:139 inc/customizer.php:142
+msgid "Text input field"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Description for text input field"
+msgstr ""
+
+#: inc/customizer.php:180
+msgid "Number input field"
+msgstr ""
+
+#: inc/customizer.php:181
+msgid "Description for number input field"
+msgstr ""
+
+#: inc/customizer.php:205
+msgid "Range input field"
+msgstr ""
+
+#: inc/customizer.php:206
+msgid "Description for range input field"
+msgstr ""
+
+#: inc/customizer.php:231 inc/customizer.php:234
+msgid "Url input field"
+msgstr ""
+
+#: inc/customizer.php:232
+msgid "Description for url input field"
+msgstr ""
+
+#: inc/customizer.php:255 inc/customizer.php:258
+msgid "Tel input field"
+msgstr ""
+
+#: inc/customizer.php:256
+msgid "Description for tel input field"
+msgstr ""
+
+#: inc/customizer.php:279 inc/customizer.php:282
+msgid "Email input field"
+msgstr ""
+
+#: inc/customizer.php:280
+msgid "Description for email input field"
+msgstr ""
+
+#: inc/customizer.php:302 inc/customizer.php:305
+msgid "Search input field"
+msgstr ""
+
+#: inc/customizer.php:303
+msgid "Description for search input field"
+msgstr ""
+
+#: inc/customizer.php:325 inc/customizer.php:328
+msgid "Time input field"
+msgstr ""
+
+#: inc/customizer.php:326
+msgid "Description for time input field"
+msgstr ""
+
+#: inc/customizer.php:348 inc/customizer.php:351
+msgid "Date input field"
+msgstr ""
+
+#: inc/customizer.php:349
+msgid "Description for date input field"
+msgstr ""
+
+#: inc/customizer.php:371 inc/customizer.php:374
+msgid "Datetime input field"
+msgstr ""
+
+#: inc/customizer.php:372
+msgid "Description for datetime input field"
+msgstr ""
+
+#: inc/customizer.php:394 inc/customizer.php:397
+msgid "Week input field"
+msgstr ""
+
+#: inc/customizer.php:395
+msgid "Description for week input field"
+msgstr ""
+
+#: inc/customizer.php:417
+msgid "Checkbox field"
+msgstr ""
+
+#: inc/customizer.php:418
+msgid "Description for checkbox field"
+msgstr ""
+
+#: inc/customizer.php:437
+msgid "Textarea field"
+msgstr ""
+
+#: inc/customizer.php:438
+msgid "Description for textarea field"
+msgstr ""
+
+#: inc/customizer.php:457
+msgid "Radio field"
+msgstr ""
+
+#: inc/customizer.php:458
+msgid "Description for radio field"
+msgstr ""
+
+#: inc/customizer.php:460 inc/customizer.php:484
+msgid "value 1"
+msgstr ""
+
+#: inc/customizer.php:461 inc/customizer.php:485
+msgid "value 2"
+msgstr ""
+
+#: inc/customizer.php:481
+msgid "Select field"
+msgstr ""
+
+#: inc/customizer.php:482
+msgid "Description for select field"
+msgstr ""
+
+#: inc/customizer.php:505
+msgid "Dropdown pages field"
+msgstr ""
+
+#: inc/customizer.php:506
+msgid "Description for dropdown pages field"
+msgstr ""
+
+#: inc/customizer.php:526
+msgid "Media field"
+msgstr ""
+
+#: inc/customizer.php:545
+msgid "File field"
+msgstr ""
+
+#: inc/customizer.php:546
+msgid "Description for file field"
+msgstr ""
+
+#: inc/customizer.php:570
+msgid "Color field"
+msgstr ""
+
+#: inc/customizer.php:571
+msgid "Description for color field"
+msgstr ""
+
+#: inc/enqueue.php:87
+msgid "Loading..."
+msgstr ""
+
+#: inc/setup.php:40
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/setup.php:41
+msgid "Secondary Menu"
+msgstr ""
+
+#: inc/setup.php:141
+msgid "Home"
+msgstr ""
+
+#: inc/setup.php:142
+msgid ""
+"Welcome to your site! This is your homepage, which is what most visitors "
+"will see when they come to your site for the first time."
+msgstr ""
+
+#: inc/setup.php:146
+msgid "Blog"
+msgstr ""
+
+#: inc/setup.php:161
+msgid "Top Menu"
+msgstr ""
+
+#: inc/widgets.php:31
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/widgets.php:33
+msgid ""
+"Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr ""
+
+#. Name of the template
+msgid "Blank"
+msgstr ""
+
+#. Name of the template
+msgid "No sidebar, full width"
+msgstr ""
+
+#. Name of the template
+msgid "No sidebar"
+msgstr ""
+
+#: inc/helpers/class-theme-helper.php:61
+msgid "Show more"
+msgstr ""
+
+#: inc/helpers/class-theme-helper.php:99
+msgid "Categories: "
+msgstr ""
+
+#: inc/helpers/class-theme-helper.php:119
+msgid "Taxonomies: "
+msgstr ""
+
+#: inc/helpers/class-theme-validator.php:32
+msgid "Telephone is incorrect."
+msgstr ""
+
+#: inc/helpers/class-theme-validator.php:52
+msgid "Value is incorrect."
+msgstr ""
+
+#: inc/helpers/class-theme-validator.php:71
+msgid "Url is incorrect."
+msgstr ""
+
+#: inc/helpers/class-theme-validator.php:90
+msgid "Email is incorrect."
+msgstr ""
+
+#: inc/widgets/class-theme-example-widget.php:27
+msgid "Theme Example Widget"
+msgstr ""
+
+#: inc/widgets/class-theme-example-widget.php:31
+msgid "Example text widget"
+msgstr ""
+
+#: inc/widgets/class-theme-example-widget.php:73
+msgid "New title"
+msgstr ""
+
+#: inc/widgets/class-theme-example-widget.php:77
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/class-theme-example-widget.php:84
+msgid "Text:"
+msgstr ""
+
+#: template-parts/navigation/primary-navigation.php:25
+msgid "Primary menu"
+msgstr ""
+
+#: template-parts/post/content-excerpt.php:20
+msgid "No title"
+msgstr ""
+
+#: template-parts/post/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/post/content-none.php:30
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/post/content.php:50
+msgid "Tags: "
+msgstr ""
+
+#. Name of the theme
+msgid "Quick Start"
+msgstr ""
+
+#. Description of the theme
+msgid "Starter Wordpress Theme. Translation ready."
+msgstr ""
+
+#. URI of the theme
+msgid "https://github.com/IgorNoskov/quick-start"
+msgstr ""
+
+#. Author of the theme
+msgid "Igor Noskov"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://github.com/IgorNoskov"
+msgstr ""

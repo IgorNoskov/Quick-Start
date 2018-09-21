@@ -1,0 +1,33 @@
+.site-header
+  background-color: $primary-color
+  border-bottom: 1px solid darken($primary-color, 20%)
+  margin-bottom: $space
+  padding: $space 0
+  position: relative
+
+  &__inner
+    max-width: $container-max-width
+    margin-right: auto
+    margin-left: auto
+    padding: 0 15px
+
+  &__btn
+    font-size: $font-size-base * 2
+    height: 40px
+    line-height: 1
+    padding: 0
+    position: absolute
+    right: 10px
+    top: calc(50% - 20px)
+    width: 40px
+
+@media screen and (min-width: 992px)
+  .site-header
+
+    &__inner
+      align-items: center
+      display: flex
+      justify-content: space-between
+
+    &__btn
+      display: none

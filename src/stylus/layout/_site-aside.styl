@@ -1,0 +1,7 @@
+.site-aside
+  margin-bottom: $space
+  padding: 0 15px
+
+  @media screen and (min-width: 992px)
+    grid-area: s
+    min-width: 0 // solves bad behavior, when uses grid layout with overflow-x children

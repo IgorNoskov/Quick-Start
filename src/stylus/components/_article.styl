@@ -1,0 +1,29 @@
+.article
+  &__header
+    margin-bottom: $space
+
+  &__thumbnail
+    background-color: $primary-color
+    margin-bottom: $space
+
+  &__thumbnail-img
+    display: block
+    margin: auto
+
+  &__title
+    word-break: break-word
+
+  &__publish-date
+    font-style: italic
+
+  &__publish-date,
+  &__category-list,
+  &__tag-list
+    color: $secondary-text-color
+
+  &__content
+    margin-bottom: $space
+
+  &::after
+    get-clearfix()
+    get-clearfix-after()

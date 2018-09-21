@@ -1,0 +1,91 @@
+.entry-content img
+  margin: 0 0 $space 0
+
+.alignleft,
+img.alignleft
+  display: inline
+  float: left
+  margin-right: $space
+
+.alignright,
+img.alignright
+  display: inline
+  float: right
+  margin-left: $space
+
+.aligncenter,
+img.aligncenter
+  clear: both
+  display: block
+  margin-left: auto
+  margin-right: auto
+
+.alignnone,
+img.alignnone
+  float: none
+
+.wp-smiley
+  border: none
+  margin-bottom: 0
+  margin-top: 0
+  padding: 0
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object
+  max-width: 100%
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link
+  display: inline-block
+
+.wp-caption
+  margin-bottom: $space
+  max-width: 100%
+
+  img[class*="wp-image-"]
+    display: block
+    margin-left: auto
+    margin-right: auto
+
+.wp-caption-text
+  margin: $space 0
+
+.wp-caption-text
+  text-align: center
+
+blockquote.left
+  float: left
+  margin-right: 20px
+  margin-left: 0
+  text-align: right
+  width: 33%
+
+blockquote.right
+  float: right
+  margin-left: 20px
+  margin-right: 0
+  text-align: left
+  width: 33%
+
+.gallery
+  margin-bottom: $space
+
+.gallery-item
+  display: inline-block
+  margin: 0 0 $space
+  padding: 0 1em 0 0
+  text-align: center
+  vertical-align: top
+  width: 100%
+
+.gallery-caption
+  display: block
+
+@media screen and (min-width: 992px)
+
+  // Loops to enumerate the classes for gallery columns.
+  for num in (2..9)
+    .gallery-columns-{num} .gallery-item
+      max-width: $columns[num - 1]

@@ -1,0 +1,22 @@
+.post-preview
+  border-bottom: 1px solid $primary-color
+
+  &__thumbnail-wrapper
+    float: left
+    margin-right: 20px
+
+  &__content::after
+    get-clearfix()
+    get-clearfix-after()
+
+  &__title
+    margin-top: 0
+    word-break: break-word
+
+    a
+      text-decoration: none
+
+  &__publish-date
+    color: $secondary-text-color
+    font-style: italic
+    margin-bottom: $space
