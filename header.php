@@ -40,7 +40,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
         <div class="site-header__inner">
 
-            <button type="button" class="site-header__btn" id="js-buttonOpenSideMenu">&#9776;</button>
+            <button id="js-buttonOpenSideMenu" type="button" class="site-header__btn">&#9776;</button>
 
 			<?php get_template_part( 'template-parts/header/site-branding' ); ?>
 

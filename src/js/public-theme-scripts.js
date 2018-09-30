@@ -22,61 +22,66 @@
      */
     const siteOverlay = $('<div id="js-siteOverlay" class="site-overlay"></div>').insertAfter('#js-site');
 
-    /**
-     * Adds button for navigation items with submenu.
-     *
-     * @since 1.0.0
-     */
-    primaryNavigation.find('.menu-item-has-children').each(function () {
-        $(this).append('<button type="button" class="menu-item__button js-showSubmenu">&rsaquo;</button>');
-    });
+    if (primaryNavigation.length) {
+        /**
+         * Adds button for navigation items with submenu.
+         *
+         * @since 1.0.0
+         */
+        primaryNavigation.find('.menu-item-has-children').each(function () {
+            $(this).append('<button type="button" class="menu-item__button js-showSubmenu">&rsaquo;</button>');
+        });
 
-    /**
-     * Adds button for navigation submenus.
-     *
-     * @since 1.0.0
-     */
-    primaryNavigation.find('.sub-menu').each(function () {
-        $(this).append('<button type="button" class="sub-menu__button js-closeSubmenu">&lsaquo;</button>');
-    });
+        /**
+         * Adds button for navigation submenus.
+         *
+         * @since 1.0.0
+         */
+        primaryNavigation.find('.sub-menu').each(function () {
+            $(this).append('<button type="button" class="sub-menu__button js-closeSubmenu">&lsaquo;</button>');
+        });
 
-    /**
-     * Opens side menu.
-     *
-     * @since 1.0.0
-     */
-    $('#js-buttonOpenSideMenu').on('click', function () {
-        primaryNavigation.addClass('active');
-        siteOverlay.addClass('site-overlay_active');
-    });
+        /**
+         * Opens side menu.
+         *
+         * @since 1.0.0
+         */
+        $('#js-buttonOpenSideMenu').on('click', function () {
+            primaryNavigation.addClass('active');
+            siteOverlay.addClass('site-overlay_active');
+        });
 
-    /**
-     * Closes side menu.
-     *
-     * @since 1.0.0
-     */
-    $('#js-buttonCloseSideMenu').on('click', function () {
-        primaryNavigation.removeClass('active');
-        siteOverlay.removeClass('site-overlay_active');
-    });
+        /**
+         * Closes side menu.
+         *
+         * @since 1.0.0
+         */
+        $('#js-buttonCloseSideMenu').on('click', function () {
+            primaryNavigation.removeClass('active');
+            siteOverlay.removeClass('site-overlay_active');
+        });
 
-    /**
-     * Opens submenu.
-     *
-     * @since 1.0.0
-     */
-    $(primaryNavigation).on('click', '.js-showSubmenu', function () {
-        $(this).prev().addClass('active');
-    });
+        /**
+         * Opens submenu.
+         *
+         * @since 1.0.0
+         */
+        $(primaryNavigation).on('click', '.js-showSubmenu', function () {
+            $(this).prev().addClass('active');
+        });
 
-    /**
-     * Closes submenu.
-     *
-     * @since 1.0.0
-     */
-    $(primaryNavigation).on('click', '.js-closeSubmenu', function () {
-        $(this).parent().removeClass('active');
-    });
+        /**
+         * Closes submenu.
+         *
+         * @since 1.0.0
+         */
+        $(primaryNavigation).on('click', '.js-closeSubmenu', function () {
+            $(this).parent().removeClass('active');
+        });
+
+    } else {
+        $('#js-buttonOpenSideMenu').hide();
+    }
 
     /**
      * Clicks on site overlay.
@@ -84,11 +89,15 @@
      * @since 1.0.0
      */
     $(siteOverlay).on('click', function () {
-        // Closes side menu.
-        primaryNavigation.removeClass('active');
-        primaryNavigation.find('.sub-menu').each(function () {
-            $(this).removeClass('active');
-        });
+
+        if (primaryNavigation.length) {
+            // Closes side menu.
+            primaryNavigation.removeClass('active');
+            primaryNavigation.find('.sub-menu').each(function () {
+                $(this).removeClass('active');
+            });
+        }
+
         // Hides overlay.
         siteOverlay.removeClass('site-overlay_active');
     });
