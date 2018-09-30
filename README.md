@@ -18,6 +18,14 @@ Simple theme for quick start. Use it as a starter theme and build your own theme
 - Gulp is configured to build the project.
 - Translation ready.
 
+## Installation
+- Download the quick-start folder from GitHub.
+- Rename the "quick-start-master.zip" file just to "quick-start.zip" or you might have problems using child themes!
+- Upload it into your WordPress installation theme subfolder: `/wp-content/themes/`.
+- Login to your WordPress backend.
+- Go to Appearance → Themes.
+- Activate the Quick Start theme.
+
 ## Developing With npm, Gulp and Stylus
 
 ### Installing Dependencies
