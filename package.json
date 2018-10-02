@@ -6,7 +6,7 @@
     "gulp": "node_modules/gulp/bin/gulp.js"
   },
   "author": "Igor Noskov",
-  "license": "ISC",
+  "license": "GPLv2",
   "homepage": "https://github.com/IgorNoskov/quick-start",
   "devDependencies": {
     "babel-cli": "*",
